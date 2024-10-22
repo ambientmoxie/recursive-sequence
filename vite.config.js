@@ -1,6 +1,6 @@
 export default {
   root: "src",
-  base: "/projects/ellipses-sequence",
+  base: "/experiment/ellipses-sequence",
   server: { host: true },
   build: {
     outDir: "../dist",
