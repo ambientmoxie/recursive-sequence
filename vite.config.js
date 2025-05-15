@@ -1,15 +1,9 @@
 export default {
   root: "src",
-  base: "/experiment/ellipses-sequence",
+  base: "/lab/ellipses",
   server: { host: true },
   build: {
     outDir: "../dist",
     chunkSizeWarningLimit: 1000,
   },
-  // rollupOptions: {
-  //   input: {
-  //     main: "./src/index.html",
-  //     about: "./src/pages/about.html",
-  //   },
-  // },
 };

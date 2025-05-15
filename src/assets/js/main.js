@@ -37,14 +37,10 @@ function onStructure(child1, child2) {
   };
 }
 
-/*
-
-The "randomDepthStructure" function generates nested div elements with a maximum nesting
-depth controlled by the MAX_DEPTH constant using recursion. It ceases execution when the nesting level
-reaches 10 or a random number between 0 and 1 exceeds 0.6. On execution, it generates a random integer between
-0 and 2, deciding the HTML structure to return and increments the currentDepth variable to track the nesting level.
-
-*/
+// The "randomDepthStructure" function generates nested div elements with a maximum nesting
+// depth, controlled by the MAX_DEPTH constant, using recursion. It ceases execution when the nesting level
+// reaches 10 or a random number between 0 and 1 exceeds 0.7. On execution, it generates a random integer between
+// 0 and 2, deciding the HTML structure to return and increments the currentDepth variable to track the nesting level.
 
 function randomDepthStructure(currentDepth = 0) {
   if (currentDepth >= MAX_DEPTH || Math.random() > 0.7) {
@@ -69,12 +65,8 @@ function randomDepthStructure(currentDepth = 0) {
   }
 }
 
-/*
-
-The "generateArtwork" function retrieves the output of the "randomDepthStructure" function into a variable named "result".
-The HTML content is injected into the div element with the id "compositionArea".
-
-*/
+// The "generateArtwork" function retrieves the output of the "randomDepthStructure" function into a variable named "result".
+// The HTML content is injected into the div element with the id "compositionArea".
 
 function generateArtwork() {
   const result = randomDepthStructure();
