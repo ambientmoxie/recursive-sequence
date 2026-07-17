@@ -1,8 +1,8 @@
 # Recursive Sequence
 
-<img src="docs/recursive-cover.png" />
+<img src="docs/recursive-cover.png" width="500" />
 
-A generative chain-link fence, wire netting, wire-mesh fence, chain-wire fence, cyclone fence, hurricane fence, diamond-mesh fence...
+A recursive, nested structure of ellipses. Each click generates a new layout. Adjust the composition's complexity by tweaking the config object.
 
 ## Usage
 
