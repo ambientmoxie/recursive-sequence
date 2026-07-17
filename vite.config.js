@@ -1,6 +1,6 @@
 export default {
   root: "src",
-  base: "/lab/ellipses/",
+  base: "/recursive",
   server: { host: true },
   build: {
     outDir: "../dist",
